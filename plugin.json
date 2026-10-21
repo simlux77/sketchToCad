@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "simlux77"
+  },
+  "description": "Ricostruzione di schizzi tecnici in DXF modificabili per AutoCAD e LT.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": "Trasforma questo schizzo in un DXF seguendo le regole sketchToCad.",
+        "developerName": "simlux77",
+        "displayName": "sketchToCad",
+        "longDescription": "Converte schizzi quotati di lamiere, guaine e dettagli in geometrie CAD native con quote, direttrici, retini e blocchi.",
+        "shortDescription": "Da schizzo a DXF modificabile"
+      }
+    }
+  },
+  "name": "sketch-to-cad",
+  "version": "0.1.0"
+}
